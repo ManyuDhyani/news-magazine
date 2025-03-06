@@ -1,5 +1,13 @@
-export const App = () => {
+import Navbar from "./components/Navbar";
+import NewsBoard from "./components/NewsBoard";
+
+const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar/>
+      <NewsBoard/>
+    </div>
   )
 }
+
+export default App;
